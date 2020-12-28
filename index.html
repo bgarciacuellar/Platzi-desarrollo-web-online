@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,20 +14,18 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Portafolio</a></li>
-                <li><a href="#">Experiencia</a></li>
-                <li><a href="#">Trabajemos Juntos<a></li>
+                <li><a href="portafolio.html">Portafolio</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#juntos">Trabajemos juntos<a></li>
             </ul>
         </nav>
     </header>
     <section>
         <h1>Hola! Soy <strong>Leonidas Esteban</strong> Desarrolador web <br><strong>Javascript</strong> con pasión por la enseñanza</h1>
-        <figure>
-            <img src="img/hero.jpg" alt="Imagen principal">
-        </figure>
+            <img src="img/hero.jpg" alt="Imagen principal width="500" height="300">
     </section>
    
-    <section> 
+    <section id="portafolio"> 
         <h2>Portafolio (Proyectos destacados)</h2>
         <article>
             <h3>Platzi video</h3>
@@ -35,19 +33,28 @@
             <p><small>Fecha: <strong>01/07/2018</strong></small></p>
             <p><small>Puedes verlo en: <strong>platzi.com/native</strong></small></p>
             <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy versions of Lorem Ipsum.</p>
+            <img src="img/platzi-video-react-native.png" alt="Proyecto Platzi video react native" width="500">
         </article>
     </section>
-    <section>
+    <section id="experiencia">
         <h2>Más sobre mi experiencia</h2> 
         <article>
-            <figure><img src="" alt="">
+            <figure><img src="img/platzi-conf.jpg" alt="Platzi Conf" width="500">
             </figure>
             <h3>PlatziConf México 2018</h3>
             <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy versions of Lorem Ipsum.</p>
-            <a href="#">Ver platica </a>
+            
+            <a href="https://www.youtube.com/" target="_blank" >Ver platica </a>
         </article>
     </section>
-    <section>Sección contacto</section>
+    <section id="juntos">
+        <form action="/suscripcion">
+        <input type="text" placeholder="Déjame tu email">
+        <button>
+            enviar 
+        </button>
+        </form>
+    </section>
     <section>Footer</section>
     
 </body>
