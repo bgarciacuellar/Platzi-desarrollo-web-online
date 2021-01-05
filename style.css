@@ -1,3 +1,9 @@
 body {
   align-items: center;
 }
+
+.hero {
+  background: red;
+  position: fixed;
+  text-align: center;
+}
